@@ -1,0 +1,65 @@
+[
+  {
+    "id": "yae-miko",
+    "title": "Yae Miko Chibi",
+    "anime": "Transparent Sticker",
+    "transparent": true,
+    "filename": "yae-miko.webp",
+    "url": "assets/presets/yae-miko.webp",
+    "type": "webp"
+  },
+  {
+    "id": "bocchi",
+    "title": "Bocchi Wave",
+    "anime": "Transparent Sticker",
+    "transparent": true,
+    "filename": "bocchi.webp",
+    "url": "assets/presets/bocchi.webp",
+    "type": "webp"
+  },
+  {
+    "id": "anya",
+    "title": "Anya Heh",
+    "anime": "Transparent Sticker",
+    "transparent": true,
+    "filename": "anya.webp",
+    "url": "assets/presets/anya.webp",
+    "type": "webp"
+  },
+  {
+    "id": "dance",
+    "title": "Anime Dance",
+    "anime": "Transparent Sticker",
+    "transparent": true,
+    "filename": "dance.webp",
+    "url": "assets/presets/dance.webp",
+    "type": "webp"
+  },
+  {
+    "id": "cat-chibi",
+    "title": "Neko Chibi",
+    "anime": "Transparent Sticker",
+    "transparent": true,
+    "filename": "cat-chibi.webp",
+    "url": "assets/presets/cat-chibi.webp",
+    "type": "webp"
+  },
+  {
+    "id": "happy",
+    "title": "Happy Energy",
+    "anime": "Transparent Sticker",
+    "transparent": true,
+    "filename": "happy.webp",
+    "url": "assets/presets/happy.webp",
+    "type": "webp"
+  },
+  {
+    "id": "sleep",
+    "title": "Sleepy Chibi",
+    "anime": "Transparent Sticker",
+    "transparent": true,
+    "filename": "sleep.webp",
+    "url": "assets/presets/sleep.webp",
+    "type": "webp"
+  }
+]

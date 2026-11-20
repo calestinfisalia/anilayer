@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AniLayer Companion</title>
+  <link rel="stylesheet" href="pet.css">
+</head>
+<body>
+  <!-- Hidden SVG Chroma-Key Filter definition -->
+  <svg style="position: absolute; width: 0; height: 0; pointer-events: none; opacity: 0;" aria-hidden="true">
+    <defs>
+      <filter id="chroma-remove-white" color-interpolation-filters="sRGB">
+        <feColorMatrix type="matrix" values="
+          1 0 0 0 0
+          0 1 0 0 0
+          0 0 1 0 0
+          -3.5 -3.5 -3.5 9.5 0" />
+      </filter>
+    </defs>
+  </svg>
+
+  <div id="pet-container" class="pet-container">
+    <div class="hover-toolbar">
+      <button class="tool-btn" id="btn-wand" title="Toggle Auto-Remove White BG (Chroma-Key)">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m15 4-2 4 4 2-4 2 2 4-4-2-2 4-2-4-4 2 2-4-4-2 4-2-2-4 4 2 2-4 2 4Z"/></svg>
+      </button>
+      <button class="tool-btn" id="btn-flip" title="Flip Direction (Mirror)">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2"><path d="m3 7 5 5-5 5V7Z"/><path d="m21 7-5 5 5 5V7Z"/><path d="M12 20v2"/><path d="M12 14v2"/><path d="M12 8v2"/><path d="M12 2v2"/></svg>
+      </button>
+      <button class="tool-btn" id="btn-store" title="Open Store & Search">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/></svg>
+      </button>
+      <button class="tool-btn btn-close" id="btn-close" title="Remove Companion">
+        <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+
+    <div id="media-wrapper" class="media-wrapper">
+      <img id="pet-image" class="pet-media" src="" alt="Pet GIF" style="display: none;">
+      <video id="pet-video" class="pet-media" autoplay loop muted playsinline style="display: none;"></video>
+    </div>
+
+    <div id="badge-notification" class="badge-notification"></div>
+  </div>
+
+  <script src="pet.js"></script>
+</body>
+</html>

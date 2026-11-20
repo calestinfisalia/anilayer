@@ -1,0 +1,37 @@
+name: Laporan bug
+description: Laporkan perilaku yang tidak sesuai
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: "Pastikan pencarian issue yang sudah ada sebelum mengirim laporan."
+  - type: textarea
+    id: expected
+    attributes:
+      label: Perilaku yang diharapkan
+      description: Apa yang seharusnya terjadi?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Perilaku aktual
+      description: Apa yang terjadi? Sertakan pesan error bila ada.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Langkah reproduksi
+      placeholder: "1. Buka AniLayer...\n2. ..."
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versi AniLayer dan Windows
+      placeholder: "AniLayer 1.0.0, Windows 11"
+    validations:
+      required: true

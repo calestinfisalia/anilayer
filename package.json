@@ -1,0 +1,50 @@
+{
+  "name": "anilayer",
+  "version": "1.0.0",
+  "description": "Transparent desktop anime companion and media looper for Windows",
+  "main": "src/main/index.js",
+  "author": "Calestin Fisalia <calestinfisalia@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/calestinfisalia/anilayer#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calestinfisalia/anilayer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/calestinfisalia/anilayer/issues"
+  },
+  "scripts": {
+    "start": "electron .",
+    "presets": "node download-presets.js",
+    "build": "electron-builder --win portable"
+  },
+  "keywords": [
+    "desktop-pet",
+    "anime",
+    "gif-player",
+    "transparent-window",
+    "virtual-pet",
+    "electron"
+  ],
+  "build": {
+    "appId": "com.anilayer.app",
+    "productName": "AniLayer",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "assets/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "portable"
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^41.10.7",
+    "electron-builder": "^26.7.0"
+  }
+}

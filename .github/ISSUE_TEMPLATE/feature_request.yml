@@ -1,0 +1,27 @@
+name: Usulan fitur
+description: Sarankan peningkatan untuk AniLayer
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Masalah yang ingin diselesaikan
+      description: Jelaskan kebutuhan atau hambatan yang Anda alami.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Solusi yang diusulkan
+      description: Bagaimana fitur ini sebaiknya bekerja?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatif yang dipertimbangkan
+      description: Solusi lain yang pernah Anda coba atau pertimbangkan.
+    validations:
+      required: false
