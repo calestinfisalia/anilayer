@@ -14,9 +14,9 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -25,7 +25,7 @@ jobs:
       - name: Build Windows portable app
         run: npm run build
       - name: Upload portable build
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: anilayer-windows-portable
           path: dist/*.exe
