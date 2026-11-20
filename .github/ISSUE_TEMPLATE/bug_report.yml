@@ -1,37 +1,37 @@
-name: Laporan bug
-description: Laporkan perilaku yang tidak sesuai
+name: Bug report
+description: Report unexpected behavior
 title: "[Bug]: "
 labels:
   - bug
 body:
   - type: markdown
     attributes:
-      value: "Pastikan pencarian issue yang sudah ada sebelum mengirim laporan."
+      value: "Please search existing issues before submitting a report."
   - type: textarea
     id: expected
     attributes:
-      label: Perilaku yang diharapkan
-      description: Apa yang seharusnya terjadi?
+      label: Expected behavior
+      description: What did you expect to happen?
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
-      label: Perilaku aktual
-      description: Apa yang terjadi? Sertakan pesan error bila ada.
+      label: Actual behavior
+      description: What happened? Include any error messages.
     validations:
       required: true
   - type: textarea
     id: reproduce
     attributes:
-      label: Langkah reproduksi
-      placeholder: "1. Buka AniLayer...\n2. ..."
+      label: Steps to reproduce
+      placeholder: "1. Open AniLayer...\n2. ..."
     validations:
       required: true
   - type: input
     id: version
     attributes:
-      label: Versi AniLayer dan Windows
+      label: AniLayer and Windows versions
       placeholder: "AniLayer 1.0.0, Windows 11"
     validations:
       required: true

@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Pelaporan kerentanan keamanan
+  -   name: Report a security vulnerability
     url: https://github.com/calestinfisalia/anilayer/security/policy
-    about: Jangan melaporkan kerentanan keamanan melalui issue publik.
+    about: Do not report security vulnerabilities through public issues.

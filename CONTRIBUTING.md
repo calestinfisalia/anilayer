@@ -1,33 +1,33 @@
-# Panduan Kontribusi
+# Contributing
 
-Terima kasih telah mempertimbangkan kontribusi untuk AniLayer.
+Thank you for considering a contribution to AniLayer.
 
-## Sebelum mulai
+## Before you start
 
-- Untuk perubahan besar atau fitur baru, buka issue terlebih dahulu agar arah implementasi dapat dibahas.
-- Periksa issue dan pull request yang sudah ada untuk menghindari pekerjaan duplikat.
-- Kontribusi kode harus kompatibel dengan GPL-3.0-or-later. Untuk media atau aset visual, sertakan sumber, pemilik, dan izin/lisensi redistribusinya; jangan mengasumsikan lisensi kode mencakup aset.
+- For significant changes or new features, open an issue first so the proposed direction can be discussed.
+- Check existing issues and pull requests to avoid duplicating work.
+- Code contributions must be compatible with GPL-3.0-or-later. For media or visual assets, include the source, owner, and redistribution license or permission; do not assume the code license covers assets.
 
-## Alur kerja
+## Workflow
 
-1. Fork repository dan buat branch dari `main` dengan nama yang deskriptif.
-2. Pasang dependensi menggunakan `npm ci`.
-3. Buat perubahan sekecil mungkin dan ikuti pola JavaScript yang sudah ada.
-4. Jalankan pemeriksaan yang sesuai:
+1. Fork the repository and create a descriptive branch from `main`.
+2. Install dependencies with `npm ci`.
+3. Keep changes focused and follow the existing JavaScript patterns.
+4. Run the relevant checks:
 
    ```powershell
    npm start
    npm run build
    ```
 
-   Pastikan aplikasi dapat dibuka dan perubahan terkait berfungsi. Proyek saat ini belum memiliki test otomatis.
-5. Buat pull request ke branch `main`. Sertakan ringkasan, alasan perubahan, langkah untuk menguji, dan screenshot untuk perubahan UI bila relevan.
+   Confirm the app opens and the relevant changes work. The project does not currently have automated tests.
+5. Open a pull request against `main`. Include a summary, motivation, test steps, and screenshots for UI changes when relevant.
 
-## Panduan pull request
+## Pull request guidelines
 
-- Pisahkan perubahan yang tidak berkaitan.
-- Jangan sertakan `node_modules/`, hasil build `dist/`, konfigurasi lokal, kredensial, atau data pribadi.
-- Jelaskan perubahan yang memengaruhi kompatibilitas, privasi, atau perilaku pengguna.
-- Pastikan workflow CI berhasil sebelum meminta review.
+- Keep unrelated changes separate.
+- Do not include `node_modules/`, build output in `dist/`, local configuration, credentials, or personal data.
+- Describe changes that affect compatibility, privacy, or user-facing behavior.
+- Ensure the CI workflow passes before requesting review.
 
-Dengan mengirimkan kontribusi, Anda menyetujui bahwa kontribusi kode Anda dilisensikan di bawah GPL-3.0-or-later. Ketentuan tersebut tidak secara otomatis berlaku pada aset media yang Anda kirimkan; izin dan ketentuan aset harus dijelaskan secara terpisah.
+By submitting a code contribution, you agree to license it under GPL-3.0-or-later. This does not automatically apply to media assets you submit; their permissions and terms must be documented separately.

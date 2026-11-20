@@ -1,25 +1,25 @@
 # AniLayer
 
-AniLayer adalah aplikasi pendamping desktop untuk Windows yang menampilkan animasi sebagai jendela transparan yang selalu berada di atas jendela lain. Aplikasi dibuat dengan Electron dan mendukung beberapa companion sekaligus.
+AniLayer is a Windows desktop companion app that displays animated media in transparent, always-on-top windows. It is built with Electron and supports multiple companions at once.
 
-## Fitur
+## Features
 
-- **Companion desktop transparan** — jendela tanpa bingkai, selalu di atas, dapat digeser bebas, dan dapat dibalik arahnya.
-- **Multi-companion** — buat beberapa jendela independen; media, posisi, ukuran, arah, opacity, dan mode click-through disimpan otomatis.
-- **Store & Search Hub** — tampilkan preset lokal, cari stiker/animasi melalui Tenor, telusuri kategori, dan pilih animasi acak. Hasil pencarian memerlukan koneksi internet.
-- **Media kustom** — pilih atau seret file lokal, atau masukkan URL media langsung. Format yang didukung: GIF, WebP, PNG, MP4, dan WebM.
-- **Kontrol companion** — ubah ukuran dan opacity, aktifkan Ghost Mode (click-through), hapus latar putih (chroma key), ganti media, atau tutup companion.
-- **System Tray** — buka Hub, buat companion, tampilkan/sembunyikan semua companion, atau keluar dari aplikasi.
-- **Penyimpanan state lokal** — posisi dan preferensi companion aktif dicatat di konfigurasi lokal. Companion yang ditutup akan dihapus dan tidak dipulihkan saat aplikasi dimulai ulang.
+- **Transparent desktop companions** — borderless, always-on-top windows that can be freely dragged and flipped.
+- **Multiple companions** — run independent windows with separately saved media, position, size, direction, opacity, and click-through settings.
+- **Store & Search Hub** — browse local presets, search Tenor stickers and animations, explore categories, and pick a random animation. Online search requires an internet connection.
+- **Custom media** — select or drag in a local file, or enter a direct media URL. Supported formats: GIF, WebP, PNG, MP4, and WebM.
+- **Companion controls** — resize, adjust opacity, toggle Ghost Mode (click-through), remove a white background (chroma key), change media, or close a companion.
+- **System tray** — open the Hub, spawn a companion, show or hide all companions, or quit the app.
+- **Local state** — active companion positions and preferences are saved locally. Closed companions are removed and are not restored when the app restarts.
 
-> Hasil pencarian dan media yang dimuat dari URL disediakan oleh layanan/pemiliknya masing-masing. Ketersediaan, ketentuan penggunaan, dan hak atas media tersebut tidak dikendalikan oleh AniLayer.
+> Search results and media loaded from URLs are provided by their respective services and owners. AniLayer does not control their availability, terms of use, or media rights.
 
-## Persyaratan
+## Requirements
 
-- Windows 10 atau lebih baru.
-- Node.js 22.12 atau lebih baru dan npm untuk menjalankan dari source.
+- Windows 10 or later.
+- Node.js 22.12 or later and npm to run from source.
 
-## Menjalankan dari source
+## Run from source
 
 ```powershell
 git clone https://github.com/calestinfisalia/anilayer.git
@@ -28,28 +28,28 @@ npm ci
 npm start
 ```
 
-Untuk membuat aplikasi Windows portable:
+To build the Windows portable application:
 
 ```powershell
 npm run build
 ```
 
-Hasil build tersedia di direktori `dist/`. Dependensi Electron dan electron-builder dipasang melalui `npm ci`.
+Build output is written to `dist/`. Electron and electron-builder dependencies are installed with `npm ci`.
 
-## Data dan privasi
+## Data and privacy
 
-Pengaturan companion disimpan secara lokal pada berkas `anilayer-config.json` di direktori `userData` Electron. Pencarian online mengirimkan istilah pencarian ke Tenor. AniLayer tidak menyediakan akun pengguna atau server backend sendiri.
+Companion settings are stored locally in `anilayer-config.json` under Electron's `userData` directory. Online searches send the search term to Tenor. AniLayer does not provide user accounts or its own backend server.
 
-## Kontribusi
+## Contributing
 
-Laporan bug, usulan fitur, dan pull request sangat diterima. Baca [CONTRIBUTING.md](CONTRIBUTING.md) sebelum berkontribusi dan ikuti [Code of Conduct](CODE_OF_CONDUCT.md).
+Bug reports, feature requests, and pull requests are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before contributing, and follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
-## Lisensi
+## License
 
-Kode sumber AniLayer dilisensikan di bawah **GNU General Public License v3.0 atau versi yang lebih baru**. Lihat [LICENSE](LICENSE).
+AniLayer source code is licensed under the **GNU General Public License v3.0 or later**. See [LICENSE](LICENSE).
 
-Media di `assets/presets/` dapat memiliki hak atau ketentuan lisensi tersendiri dan tidak otomatis dilisensikan di bawah GPL. Lihat [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) sebelum menggunakan atau mendistribusikan ulang media. Lisensi kode tidak menggantikan izin yang diperlukan atas karya visual.
+Media in `assets/presets/` may have separate rights or license terms and is not automatically licensed under the GPL. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before reusing or redistributing media. The software license does not replace permissions required for visual works.
 
-## Keamanan
+## Security
 
-Untuk melaporkan kerentanan secara privat, ikuti petunjuk di [SECURITY.md](SECURITY.md).
+To report a vulnerability privately, follow the instructions in [SECURITY.md](SECURITY.md).

@@ -1,19 +1,19 @@
 # Code of Conduct
 
-## Komitmen kami
+## Our commitment
 
-Kami berkomitmen menjaga lingkungan kontribusi yang terbuka, ramah, dan bebas dari pelecehan bagi semua orang, tanpa memandang usia, disabilitas, etnis, identitas atau ekspresi gender, tingkat pengalaman, kebangsaan, penampilan, ras, agama, atau orientasi seksual.
+We are committed to providing an open, welcoming, and harassment-free environment for everyone, regardless of age, disability, ethnicity, gender identity or expression, experience level, nationality, appearance, race, religion, or sexual orientation.
 
-## Perilaku yang diharapkan
+## Expected behavior
 
-- Bersikap hormat, konstruktif, dan terbuka terhadap sudut pandang yang berbeda.
-- Berikan kritik yang berfokus pada ide dan pekerjaan, bukan serangan pribadi.
-- Terima masukan dengan baik dan utamakan kepentingan komunitas.
+- Be respectful, constructive, and open to different perspectives.
+- Focus criticism on ideas and work, not on individuals.
+- Accept feedback graciously and prioritize the community's interests.
 
-Perilaku yang tidak dapat diterima termasuk pelecehan, penghinaan, diskriminasi, publikasi informasi pribadi tanpa izin, serta komunikasi lain yang tidak pantas dalam ruang proyek.
+Unacceptable behavior includes harassment, insults, discrimination, publishing private information without permission, and other inappropriate conduct in project spaces.
 
-## Penegakan
+## Enforcement
 
-Pengelola proyek bertanggung jawab menjelaskan dan menegakkan standar ini serta dapat menghapus konten atau menolak kontribusi yang melanggar. Laporkan masalah secara privat ke **calestinfisalia@gmail.com**. Laporan akan ditangani dengan hormat dan rahasia.
+Project maintainers are responsible for clarifying and enforcing these standards. They may remove content or reject contributions that violate this Code. Report concerns privately to **calestinfisalia@gmail.com**. Reports will be handled respectfully and confidentially.
 
-Dokumen ini mengadaptasi prinsip Contributor Covenant v2.1. Teks lengkapnya tersedia di <https://www.contributor-covenant.org/version/2/1/code_of_conduct/>.
+This Code is adapted from the Contributor Covenant v2.1. The full text is available at <https://www.contributor-covenant.org/version/2/1/code_of_conduct/>.

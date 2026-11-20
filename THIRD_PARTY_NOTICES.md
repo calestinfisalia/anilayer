@@ -1,14 +1,14 @@
-# Pemberitahuan Aset dan Layanan Pihak Ketiga
+# Third-Party Asset and Service Notices
 
-## Media preset
+## Preset media
 
-Direktori `assets/presets/` berisi gambar dan animasi yang ditampilkan aplikasi. Pengelola menyatakan bahwa media yang saat ini disertakan memiliki izin yang diperlukan untuk didistribusikan bersama repository. Setiap media dapat tetap tunduk pada hak cipta atau ketentuan lisensi terpisah; media tersebut **tidak otomatis dilisensikan di bawah GPL-3.0-or-later** hanya karena disimpan dalam repository yang sama.
+The `assets/presets/` directory contains images and animations displayed by the app. The maintainer confirms that the included media is authorized for distribution with this repository. Individual media may remain subject to separate copyright or license terms and is **not automatically licensed under GPL-3.0-or-later** merely because it is stored in this repository.
 
-Sebelum menggunakan ulang atau mendistribusikan media, pastikan izin dan ketentuan yang berlaku untuk media tersebut. Kontributor yang menambahkan media wajib mencantumkan pencipta/pemilik, URL sumber, dan lisensi atau izin yang relevan.
+Before reusing or redistributing media, verify the permissions and terms that apply to it. Contributors adding media must document its creator or owner, source URL, and applicable license or permission.
 
-## Layanan online
+## Online services
 
-- Fitur pencarian mengambil hasil dari situs Tenor. Hasil dan media yang ditautkan dimiliki atau diatur oleh pihak terkait dan tunduk pada ketentuan mereka.
-- Skrip `download-presets.js` mengambil media melalui API nekos.best. Penggunaan layanan dan media yang diperoleh tunduk pada ketentuan layanan serta hak pemilik masing-masing.
+- Search results are retrieved from Tenor. Linked results and media are owned or governed by their respective parties and subject to their terms.
+- `download-presets.js` retrieves media through the nekos.best API. Use of the service and obtained media is subject to the service terms and the rights of their respective owners.
 
-AniLayer tidak berafiliasi dengan layanan tersebut dan tidak menjamin ketersediaan, keakuratan, atau hak penggunaan media yang disediakan oleh pihak ketiga.
+AniLayer is not affiliated with these services and does not guarantee the availability, accuracy, or usage rights of third-party media.
